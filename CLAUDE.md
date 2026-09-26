@@ -25,3 +25,9 @@
 - 환경 점검: `python -m capcut_agent.env`
 - 1단 실행: `python -m capcut_agent.cli 영상.mp4`
 - 테스트: `python -m pytest -q`
+
+## 스킬
+
+- `pycapcut-mac`: 캡컷 드래프트 함정 레퍼런스
+- `ai-survival-video`: Claude Code로 만든 저장소의 작업 기록 → "AI 생존기" 강의 영상 (캡컷 없이 edge-tts + Pillow + ffmpeg)
+  - `python .claude/skills/ai-survival-video/scripts/render.py video/ep01/script.json`
