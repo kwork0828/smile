@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.pytest_cache/
+*.mp4
+*.mov
+.cache/
+
+.claude/skills/*/scripts/__pycache__/
